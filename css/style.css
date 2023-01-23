@@ -43,18 +43,22 @@
     height: 500px;
 }
 
-#footer-left-big{
+.debug #footer-left-big{
     background-color: pink;
     height: 500px;
 }
 
-.footer-right-little{
+.debug .footer-right-little{
     background-color: #20b2aa;
     height: 500px;
 }
 
-#footer-low{
+.debug #footer-low{
     background-color: cyan;
+}
+
+#header-text, .section-image, .section-text,.lower-main, #footer-left-big, .footer-right-little{
+    border: 1px dotted black;
 }
 
 /* inizio CSS */
@@ -98,11 +102,11 @@ nav{
 
 #header-text{
     width: 50%;
-    margin: auto;
 }
 
 .flex-container{
     display: flex;
+    align-items: center;
 }
 
 section{
