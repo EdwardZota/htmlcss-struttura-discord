@@ -28,13 +28,28 @@
     height: 300px;
 }
 
+.debug main .section-image{
+    background-color: dodgerblue;
+    height: 400px;
+}
+
+.debug main .section-text{
+    background-color: pink;
+    height: 400px;
+}
+
+.debug main .lower-main{
+    background-color: green;
+    height: 500px;
+}
+
+
 
 /* inizio CSS */
 
 
-
 .center{
-    width: 80%;
+    width: 65%;
     margin: auto;
 }
 
@@ -70,9 +85,27 @@ nav{
 }
 
 #header-text{
-    width: 65%;
+    width: 50%;
     margin: auto;
 }
 
+.flex-container{
+    display: flex;
+}
 
+section{
+    padding: 50px 0;
+}
+
+.section-image{
+    width: 60%;
+}
+
+.section-text{
+    width: 40%;
+}
+
+section:nth-child(2n+2){
+    background-color: lightgray;
+}
 
