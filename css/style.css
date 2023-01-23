@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Debug*/
+
+.debug .header-top{
+    background-color: cyan;
+}
+
+.debug .header-bottom{
+    background-color: blue;
+
+}
+
+.debug nav{
+    background-color: orange;
+}
+
+.debug nav>div{
+    border: 1px dotted black;
+}
+
+.debug #header-text{
+    background-color: pink;
+    height: 300px;
+}
+
+
+/* inizio CSS */
+
+
+
+.center{
+    width: 80%;
+    margin: auto;
+}
+
+.header-top{
+    padding: 5px 0;
+    height: 50px;
+}
+
+
+.header-top .logo,.header-top .login{
+    width: 20%;
+}
+
+header .login{
+    text-align: right;
+}
+
+.header-top .top-link{
+    width: 60%;
+    text-align: center;
+}
+
+.header-bottom{
+    height: 400px;
+    padding-top: 40px;
+}
+
+nav{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-text{
+    width: 65%;
+    margin: auto;
+}
+
+
+
