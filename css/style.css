@@ -43,13 +43,25 @@
     height: 500px;
 }
 
+#footer-left-big{
+    background-color: pink;
+    height: 500px;
+}
 
+.footer-right-little{
+    background-color: #20b2aa;
+    height: 500px;
+}
+
+#footer-low{
+    background-color: cyan;
+}
 
 /* inizio CSS */
 
 
 .center{
-    width: 65%;
+    width: 75%;
     margin: auto;
 }
 
@@ -109,3 +121,28 @@ section:nth-child(2n+2){
     background-color: lightgray;
 }
 
+footer{
+    background-color: #23272a;
+}
+
+#footer-top{
+    padding: 20px 0 40px;
+    display: flex;
+    justify-content: center;
+}
+
+#footer-left-big{
+    width: 300px;
+}
+
+.footer-right-little{
+    width: 200px;
+}
+
+#footer-low{
+    margin-top: 30px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
